@@ -1,8 +1,13 @@
 theme name:     Super Arcade1Up 5x4 Theme 
+
 designed by:    Travis Wilson ( Super Retropie and Retro Gaming )
+
 facebook:		www.facebook.com/groups/superretropie
+
 twitter:		www.twitter.com/superretropie
+
 email:			superretropieretrogaming@gmail.com
+
 version         1.5.8
 
 <------------------------------------------------------------------------------------------>
