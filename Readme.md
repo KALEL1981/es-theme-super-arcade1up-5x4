@@ -28,9 +28,13 @@ Travis Wilson ( Super Retropie and Retro Gaming ) made this theme. Not some "Sup
 
 Supported Systems and Custom Collections
 
+2player
+
 3do
 
 3ds
+
+4player
 
 aae
 
