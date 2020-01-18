@@ -87,7 +87,7 @@ version:        1.5.8
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./_inc/fonts/ARCADE_N.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.02</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound></scrollSound>
          <alignment>center</alignment>
@@ -98,13 +98,13 @@ version:        1.5.8
    <view name="detailed,video">
       <textlist name="gamelist">      
          <selectorColor>1c1c1c00</selectorColor>                     
-         <pos>0.05 0.28</pos>
-         <size>0.4 0.68</size>
+         <pos>0.025 0.28</pos>
+         <size>0.5 0.68</size>
          <selectedColor>1176BC</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
          <fontPath>./_inc/fonts/ARCADE_N.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.02</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound></scrollSound>
          <alignment>center</alignment>
@@ -143,19 +143,13 @@ version:        1.5.8
    </view>     
 
    <view name="video,detailed">   
-      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_ rating, md_genre, md_playcount, md_players, md_releasedate">
          <pos>1 1</pos>
       </text>
-      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_players,md_releasedate">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_ rating, md_genre, md_playcount, md_players, md_releasedate">
          <color>1176BC</color>
          <fontPath>./_inc/fonts/ARCADE_N.ttf</fontPath>
-         <fontSize>0.025</fontSize>
-      </text>
-      <text name="md_lbl_rating">
-         <pos>1.3 0.5</pos>
-         <size>0.2 0.035</size>
-         <color>7FABFE</color>
-         <zIndex>5</zIndex>                 
+         <fontSize>0.02</fontSize>
       </text>
       <text name="md_lbl_players">
          <pos>0.55 0.29</pos>
@@ -169,71 +163,38 @@ version:        1.5.8
          <color>ffffff</color>                  
       </text>
       <text name="md_lbl_releasedate">
-         <pos>0.55 0.33</pos>
+         <pos>0.55 0.32</pos>
          <size>0.3 0.035</size>
          <zIndex>43</zIndex>         
       </text>
       <datetime name="md_releasedate">
-         <pos>0.72 0.33</pos>
+         <pos>0.72 0.32</pos>
          <size>0.3 0.035</size>
          <zIndex>43</zIndex>
          <color>ffffff</color>                  
       </datetime>
       <text name="md_lbl_genre">
-         <pos>0.55 0.37</pos>
+         <pos>0.55 0.35</pos>
          <size>0.3 0.035</size>
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_genre">
-         <pos>0.665 0.37</pos>
+         <pos>0.665 0.35</pos>
          <size>0.3 0.035</size>
-         <color>ffffff</color>         
-         <zIndex>5</zIndex>         
-      </text>         
-      <text name="md_lbl_publisher">
-         <pos>1.72 0.41</pos>
-         <size>0.3 0.035</size>
-         <zIndex>5</zIndex>                   
-      </text>
-      <text name="md_publisher">
-         <pos>1.8 0.41</pos>
-         <size>0.3 0.005</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
       </text>
       <text name="md_lbl_playcount">
-         <pos>0.55 0.41</pos>
+         <pos>0.55 0.38</pos>
          <size>0.35 0.035</size>
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_playcount">
-         <pos>0.795 0.41</pos>
+         <pos>0.795 0.38</pos>
          <size>0.3 0.035</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
-      </text>
-      <text name="md_lbl_developer">
-         <pos>1.72 0.49</pos>
-         <size>0.3 0.035</size>     
-         <zIndex>5</zIndex>                  
-      </text>
-      <text name="md_developer">
-         <pos>1.8 0.49</pos>
-         <size>0.3 0.035</size>
-         <color>ffffff</color>         
-         <zIndex>5</zIndex>        
-      </text>
-      <text name="md_lbl_lastplayed">
-         <pos>1.3 0.53</pos>
-         <size>0.3 0.035</size>
-         <zIndex>43</zIndex>         
-      </text>
-      <datetime name="md_lastplayed">
-         <pos>1.39 0.53</pos>
-         <size>0.3 0.035</size>
-         <zIndex>43</zIndex>
-         <color>F3E804</color>                  
-      </datetime>                            
+      </text>                          
    </view>
 
    <view name="detailed">
@@ -241,7 +202,14 @@ version:        1.5.8
          <pos>0.755 0.73</pos>
          <maxSize>0.35 0.37</maxSize>
          <zIndex>3</zIndex>         
-      </image>           
+      </image>
+      <rating name="md_rating">
+         <zIndex>3</zIndex>       
+         <pos>0.55 0.45</pos>
+         <size>0.05 0.05</size>
+         <filledPath>./_inc/images/star_full.png</filledPath>
+         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+      </rating>          
    </view>
 
    <view name="video">   
@@ -258,7 +226,14 @@ version:        1.5.8
          <origin>0.5 0.5</origin>
          <maxSize>0.3 0.1</maxSize>
          <zIndex>4</zIndex>         
-      </image>             
+      </image>
+      <rating name="md_rating">
+         <zIndex>3</zIndex>       
+         <pos>0.55 0.45</pos>
+         <size>0.05 0.05</size>
+         <filledPath>./_inc/images/star_full.png</filledPath>
+         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+      </rating>             
    </view>
    
 </theme>
