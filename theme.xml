@@ -179,7 +179,7 @@ version:        1.5.8
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_genre">
-         <pos>0.657 0.35</pos>
+         <pos>0.67 0.35</pos>
          <size>0.3 0.02</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
@@ -190,7 +190,7 @@ version:        1.5.8
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_playcount">
-         <pos>0.767 0.38</pos>
+         <pos>0.78 0.38</pos>
          <size>0.3 0.02</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
@@ -211,9 +211,9 @@ version:        1.5.8
       <rating name="md_rating">
          <zIndex>3</zIndex>       
          <pos>0.57 0.45</pos>
-         <size>0.05 0.05</size>
-         <filledPath>./_inc/images/star_full.png</filledPath>
-         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+         <size>0.06 0.06</size>
+         <filledPath>./_inc/images/full.png</filledPath>
+         <unfilledPath>./_inc/images/hollow.png</unfilledPath>
       </rating>          
    </view>
 
@@ -235,9 +235,9 @@ version:        1.5.8
       <rating name="md_rating">
          <zIndex>3</zIndex>       
          <pos>0.57 0.45</pos>
-         <size>0.05 0.05</size>
-         <filledPath>./_inc/images/star_full.png</filledPath>
-         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+         <size>0.06 0.06</size>
+         <filledPath>./_inc/images/full.png</filledPath>
+         <unfilledPath>./_inc/images/hollow.png</unfilledPath>
       </rating>             
    </view>
    
