@@ -152,18 +152,18 @@ version:        1.5.8
          <fontSize>0.02</fontSize>
       </text>
       <text name="md_lbl_players">
-         <pos>0.55 0.29</pos>
+         <pos>0.57 0.29</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>         
       </text>
       <text name="md_players">
-         <pos>0.7 0.29</pos>
+         <pos>0.71 0.29</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>
          <color>ffffff</color>                  
       </text>
       <text name="md_lbl_releasedate">
-         <pos>0.55 0.32</pos>
+         <pos>0.57 0.32</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>         
       </text>
@@ -174,29 +174,29 @@ version:        1.5.8
          <color>ffffff</color>                  
       </datetime>
       <text name="md_lbl_genre">
-         <pos>0.55 0.35</pos>
+         <pos>0.57 0.35</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_genre">
-         <pos>0.665 0.35</pos>
+         <pos>0.657 0.35</pos>
          <size>0.3 0.02</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
       </text>
       <text name="md_lbl_playcount">
-         <pos>0.55 0.38</pos>
+         <pos>0.57 0.38</pos>
          <size>0.35 0.02</size>
          <zIndex>5</zIndex>                   
       </text>
       <text name="md_playcount">
-         <pos>0.795 0.38</pos>
+         <pos>0.767 0.38</pos>
          <size>0.3 0.02</size>
          <color>ffffff</color>         
          <zIndex>5</zIndex>         
       </text>
       <text name="md_lbl_rating">
-         <pos>0.55 0.41</pos>
+         <pos>0.57 0.41</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>         
       </text>                          
@@ -210,7 +210,7 @@ version:        1.5.8
       </image>
       <rating name="md_rating">
          <zIndex>3</zIndex>       
-         <pos>0.55 0.45</pos>
+         <pos>0.57 0.45</pos>
          <size>0.05 0.05</size>
          <filledPath>./_inc/images/star_full.png</filledPath>
          <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
@@ -219,7 +219,7 @@ version:        1.5.8
 
    <view name="video">   
       <video name="md_video">
-         <pos>0.755 0.729</pos>
+         <pos>0.77 0.729</pos>
          <maxSize>0.4 0.4</maxSize>
          <zIndex>3</zIndex>
          <delay>3</delay>         
@@ -234,7 +234,7 @@ version:        1.5.8
       </image>
       <rating name="md_rating">
          <zIndex>3</zIndex>       
-         <pos>0.55 0.45</pos>
+         <pos>0.57 0.45</pos>
          <size>0.05 0.05</size>
          <filledPath>./_inc/images/star_full.png</filledPath>
          <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
