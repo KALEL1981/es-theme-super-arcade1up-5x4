@@ -211,7 +211,7 @@ version:        1.5.8
       <rating name="md_rating">
          <zIndex>3</zIndex>       
          <pos>0.57 0.45</pos>
-         <size>0.06 0.06</size>
+         <size>0.05 0.05</size>
          <filledPath>./_inc/images/full.png</filledPath>
          <unfilledPath>./_inc/images/hollow.png</unfilledPath>
       </rating>          
@@ -235,7 +235,7 @@ version:        1.5.8
       <rating name="md_rating">
          <zIndex>3</zIndex>       
          <pos>0.57 0.45</pos>
-         <size>0.06 0.06</size>
+         <size>0.05 0.05</size>
          <filledPath>./_inc/images/full.png</filledPath>
          <unfilledPath>./_inc/images/hollow.png</unfilledPath>
       </rating>             
