@@ -4,7 +4,7 @@ creator:		Travis Wilson ( Super Retropie and Retro Gaming )
 facebook:		www.facebook.com/groups/superretropie
 twitter:		www.twitter.com/superretropie
 email:			superretropieretrogaming@gmail.com
-version:        1.5.8
+version:        1.6.1
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -35,16 +35,16 @@ version:        1.5.8
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <zIndex>4</zIndex>                 
+         <zIndex>3</zIndex>                 
          <path>./_inc/images/main_top.png</path>
       </image>                      
       <text name="systemInfo">     
          <pos>0.0 0.59</pos>
          <backgroundColor>00000000</backgroundColor>
-         <color>ffffff</color>
+         <color>ffffffaa</color>
          <fontPath>./_inc/fonts/ARCADE_N.ttf</fontPath>
 	     <fontSize>0.022</fontSize>
-         <zIndex>5</zIndex>	     
+         <zIndex>3</zIndex>	     
       </text>            
    </view>
 </feature>
@@ -145,8 +145,6 @@ version:        1.5.8
    <view name="video,detailed">   
       <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_ rating, md_genre, md_playcount, md_players, md_releasedate">
          <pos>1 1</pos>
-      </text>
-      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_ rating, md_genre, md_playcount, md_players, md_releasedate">
          <color>1176BC</color>
          <fontPath>./_inc/fonts/ARCADE_N.ttf</fontPath>
          <fontSize>0.02</fontSize>
@@ -199,6 +197,10 @@ version:        1.5.8
          <pos>0.57 0.41</pos>
          <size>0.3 0.02</size>
          <zIndex>5</zIndex>         
+      </text>
+      <text name="md_developer, md_publisher, md_lastplayed, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed">
+         <pos>1 1</pos>
+         <color>00000000</color>
       </text>                          
    </view>
 
