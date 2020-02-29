@@ -8,7 +8,7 @@ twitter:		www.twitter.com/superretropie
 
 email:			superretropieretrogaming@gmail.com
 
-version         1.5.8
+version         1.6.1
 
 <------------------------------------------------------------------------------------------>
 
