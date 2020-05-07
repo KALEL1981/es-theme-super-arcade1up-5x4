@@ -112,6 +112,8 @@ chromium
 
 coleco
 
+colecovision
+
 contra
 
 cps1
@@ -251,6 +253,8 @@ megacd
 megadrive
 
 megadrive-hacks
+
+megadrive-japan
 
 megaman
 
