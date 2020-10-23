@@ -22,7 +22,11 @@ Commercial distribution is prohibited
 
 <------------------------------------------------------------------------------------------>
 
-Travis Wilson ( Super Retropie and Retro Gaming ) made this theme. Not some "Supreme Wannabe" who makes loaded images and boasts about how good they are.
+Travis Wilson / Super Retropie and Retro Gaming / made this theme. 
+
+This theme is not for use with any kind of loaded images. 
+
+This theme is not for use with anything Supreme Retro Gaming related.
 
 <------------------------------------------------------------------------------------------>
 
